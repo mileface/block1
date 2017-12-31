@@ -4,5 +4,17 @@ body {
     font-size: 1.1em;
 }
 
-
- 
+p.italic {
+    font-style: italic;
+}
+li {font: italic}
+.members li{
+    font:italic 1em Arial, Helvetica, sans-serif;
+} 
+h2 {font: 1.6em "Times New Roman", Times, serif;}
+h3 {font: 1.6em "Arial", Times, serif;}
+.bandphoto {
+    background-image: url("images/Pearl-Jam-Ten.jpg");
+    background-position: center top; 
+    background-size: 400px 100px;
+}
