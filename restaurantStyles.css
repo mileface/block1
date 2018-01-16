@@ -1,22 +1,36 @@
 body {
-    background-color: rgb(142, 231, 231);
-    color: rgb(25, 39, 39);
-    font-size: 1.1em;
+  background-color: rgb(194, 206, 245);
+  color: rgb(25, 39, 39);
+  font-size: 1.1em;
+    
 }
 h1 {
-    color: rgb(79, 39, 189);
-    font: 1.6em "Times New Roman", Times, serif;
+  color: rgb(22, 236, 50);
+  font: 1.6em "Times New Roman", Times, serif;
+    
+}
+h2{
+  color: rgb(148, 207, 138);
+  font: 2.0em "Times New Roman", Times, serif;
+  
 }
 h3{
-  font: 1.6em "Times New Roman", Times, serif;
+  color: rgb(32, 27, 27);
+  font: 3.6em "Times New Roman", Times, serif;
+  
+}
+h4{
+  color: rgb(59, 7, 248);
+  font: 3.9em "Times New Roman", Times, serif;
+  
 }
 head {
-    background-color: rgb(215, 238, 10);
+    background-color: rgba(128, 253, 155, 0.952);
     font-size: 2.1em;
 }
 main div {
     background: rgb(17, 20, 20);
-    color: rgb(142, 231, 231);
+    color: rgb(99, 101, 104);
     padding: 15px;
     max-width: 300px;
     margin: 5px;
@@ -35,7 +49,7 @@ main div {
     justify-content: center;
   } 
   main {
-    background: rgb(142, 231, 231);
+    background: rgb(87, 137, 231);
     margin: 20px 0;
     padding: 10px;
   }
@@ -45,5 +59,76 @@ main div {
 }
   a:hover {
     font-weight: bold;
+  } 
+  a:visited {color: rgb(30, 32, 131);
   }
-  a:visited {color: rgb(64, 13, 112);
+  p {color: rgb(247, 9, 9);
+    font: 2.6em "Times New Roman", Times, serif;
+  }
+   /* Form styling */
+
+input[type=text] {
+	background-color: 		#d5d2cb;
+	border:		2px	solid	#292533;
+	width:		25%;
+	padding:	12px	20px;
+	margin:		8px 0;
+	box-sizing:	border-box;
+	
+}
+
+fieldset {
+	background-color: #d5d2cb;
+	width: 25%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing:	border-box;
+
+}
+
+input, label {
+	font-size: 16px;
+	font-family: Arial, Helvetica, serif;
+	font-weight: bold;
+}
+
+legend {
+	font-size: 16px;
+	font-family:	Arial, Helvetica, serif;
+	font-weight: bold;
+}
+
+select {
+	background-color:	#d5d2cb;
+	width:	25%;
+	padding:	12px 20px;
+	margin:	8px 0;
+	box-sizing:	border-box;
+}
+
+textarea {
+	width: 75%;
+	height: 200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #44749d;
+	border-radius: 3px;
+	background-color: #d5d2cb;
+	resize: none;
+}
+
+input, submit{
+	background-color: #8c2238;
+	border: none;
+	color: white;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.carousel-inner > .item > img {
+  width:500px;
+  height:500px;
+}
