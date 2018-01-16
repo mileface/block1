@@ -1,20 +1,29 @@
-<!DOCTYPE HTML>
-<html>
-        <head>
-                <link href="restaurantStyles.css" 
-                rel="stylesheet" 
-                type="text/css" />
-                <title>Contact Us</title>
-               <center><h1>Teocalli Tamale</h1></center>
-        </head>
-            <hr>
-     <body>
-                    <a href="teocallitamale.html">Home</a>
-                    <a href="teo-menu.html">Menu</a> 
-                    <a href="contactteo.html">Contact Us</a>   <br/>
-                    <hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Teocalli Tamale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="restaurantStyles.css" 
+  rel="stylesheet" 
+  type="text/css" />
+</head>
+<body>
+        <ul class="nav nav-pills nav-justified">
+                <li class="active"><a href="teocallitamale.html"><span class="glyphicon glyphicon-home"> Home</span></a></li>
+                <li><a href="teo-menu.html">Menu</a></li>
+                <li><a href="contactteo.html">Contact</a></li>
+        </ul>
+                  
+                    
+                    
+ <br/>
+ <hr>
                 
-        <form action="contactUs.html" method="POST">
+        <center><form action="contactUs.html" method="POST">
         <b> Name:  </b><input type="text" name="myTextInput" /><br/>
         <b>Email:  </b><input type="text" name="myTextInput" /> <br/>
         <b> Phone: </b><input type="text" name="myTextInput" /> <br/>  
@@ -24,20 +33,21 @@
                 <option value="Private Party">Private Party</option>
                 <option value="Feedback">Feedback</option>
                 <option value="Other">Other</option>
-        </select><br/>      
+        </select></center>
+        <br/>      
         Additional Information:
         <textarea name="briefDescription"></textarea><br/>
-        Have you been to the restaurant?:
+       <center> Have you been to the restaurant?:
         <input type="radio" name="answer" value="Yes" checked/>Yes
         <input type="radio" name="answer" value="No"/>No<br/>
-        Best days to contact you:
-        <input type="checkbox" name="myChoices" value="Monday" checked/>M<br/>
-        <input type="checkbox" name="myChoices" value="Tuesday" checked/>T<br/>
-        <input type="checkbox" name="myChoices" value="Wednesday" checked/>W<br/>
-        <input type="checkbox" name="myChoices" value="Thursday" checked/>Th<br/>
-        <input type="checkbox" name="myChoices" value="Friday" checked/>F<br/>
-        <button name="subject" type="submit" value="HTML">Send Request</button>
-        </form>
+        Best days to contact you: <br/>
+        <input type="checkbox" name="myChoices" value="Monday" unchecked/>M<br/>
+        <input type="checkbox" name="myChoices" value="Tuesday" unchecked/>T<br/>
+        <input type="checkbox" name="myChoices" value="Wednesday" unchecked/>W<br/>
+        <input type="checkbox" name="myChoices" value="Thursday" unchecked/>Th<br/>
+        <input type="checkbox" name="myChoices" value="Friday" unchecked/>F<br/>
+<button name="subject" type="submit" value="HTML">Send Request</button>
+        </form></center>
        
      </body>
 
